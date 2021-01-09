@@ -1,0 +1,261 @@
+footer{
+	position: fixed;
+	bottom: 0;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 0px 50px;
+    margin-top: 80px;
+    height: 270px;
+}
+.footer-bel{
+    padding-top: 66px;
+}
+.footer-img{
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 112%;
+  background-size: 4%;
+ 
+ background-repeat: repeat-x;
+ padding-bottom: 70px;
+}
+.footer-animation{
+    -moz-animation: footer-animation 5s linear infinite;
+    -o-animation: footer-animation 5s linear infinite;
+    -webkit-animation: footer-animation 5s linear infinite;
+    left:auto;
+    right:0;
+}
+
+@keyframes
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}
+
+
+
+
+
+
+
+
+
+/*Footer
+.footer{
+    background: whitesmoke;
+    color: rgb(48, 43, 43);
+    height: 400px;
+    position: relative;
+    width: 100%;
+    margin-top: 40vh;
+    background: -webkit-linear-gradient(left, #24459b  0%,#6085b2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2749c4', endColorstr='#6085b2',GradientType=1 );
+    color:#fff;
+    position:relative;
+}
+
+#footer-bottom{
+    position: absolute;
+    text-align: center;
+    background-color: grey;
+    color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    bottom: 0px;
+    border: 1px solid;
+    left: 0px;
+}*/
+
+
+
+
+
+
+/*
+.card-move{
+    width: 60vh;
+    height: 30vh;
+    margin-top: 25px;
+    margin-left: 25vh; 
+    border: 1px solid whitesmoke;
+    background-color: white;
+}
+
+
+.card-body-5{
+    background-color: white;
+    color: rgb(48, 40, 40);
+    text-decoration: initial;
+    text-align: center;
+}
+#footer-head{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding: 25px;
+}
+
+.card-title-2{
+    margin-top: 35px;
+    font-size: large;
+    text-align: center;
+}*/

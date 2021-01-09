@@ -1,0 +1,156 @@
+/*Logo*/
+/* Rectangle 62 */
+/* Rectangle 62 */
+
+#main-header{
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    /* black */
+    background: white;
+    border-bottom: 1px solid rgb(121, 121, 196);
+}
+/* HealthHub */
+.h3{
+position: absolute;
+font-family: Robot Slab;
+font-size: 50px;
+font-style: normal;
+font-weight: bold;
+left: 169px;
+top: 49px;
+/* identical to box height */
+color: #1542B8;
+}
+.emer{
+    /* Rectangle 87 */
+
+position: absolute;
+width: 300px;
+height: 70px;
+left: 1058px;
+top: 76px;
+text-align: center;
+background: #FF0707;
+padding-top: 15px;
+}
+.emer a{
+    color: black;
+}
+#bttn-b{
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    left: 1058px;
+    top: 22px;
+    background-color: rgb(230, 215, 215), 30);
+    color: #2AFF07;
+    padding-left: 250px;
+    border-radius: 10px;
+}
+/*body*/
+.big-square{
+    /* Rectangle 48 */
+
+position: absolute;
+width: 897px;
+height: 1110px;
+left: 52px;
+top: 258px;
+
+background: #E5E5E5;
+}
+.bttn-2{
+    position: absolute;
+    height: 70px;
+    width: 230px;
+    left: 1025px;
+    top: 5px;
+    background-color: blue;
+  color: white;
+  border: none;
+font-weight: bolder;
+font-size: 1.9rem;
+}
+ .square-4{
+        /* Rectangle 52 */
+    
+    position: absolute;
+    width: 230px;
+    height: 220px;
+    left: 1025px;
+    top: 110px;
+    
+    background: #E5E5E5;
+    
+    }
+    .square-5{
+        /* Rectangle 52 */
+    
+    position: absolute;
+    width: 230px;
+    height: 260px;
+    left: 1025px;
+    top: 378px;
+    
+    background: #E5E5E5;
+    }
+.square-6{
+        /* Rectangle 52 */
+    
+    position: absolute;
+    width: 230px;
+    height: 260px;
+    left: 1025px;
+    top: 697px;
+    
+    background: #E5E5E5;
+    
+    }
+.h2{
+    /* Health Effects Of Smoking On The Heart And Lung */
+text-align: center;
+position: absolute;
+left: 30px;
+top: 25px;
+font-family: Signika SC;
+font-style: normal;
+font-weight: bold;
+line-height: 30px;
+color: rgb(36, 34, 34);
+padding: 20px;
+}
+.body-text{
+    /* Smoking leads to disease and disability and harms nearly every organ of the body. More than 16 million Americans are living with a disease caused by smoking. For every person who dies because of smoking, at least 30 people live with a serious smoking-related illness. Smoking causes cancer, heart disease, stroke, lung diseases, diabetes, and chronic obstructive pulmonary disease (COPD), which includes emphysema and chronic bronchitis. Smoking also increases risk for tuberculosis, certain eye diseases, and problems of the immune system, including rheumatoid arthritis. Secondhand smoke exposure contributes to approximately 41,000 deaths among nonsmoking adults and 400 deaths in infants each year. Secondhand smoke causes stroke, lung cancer, and coronary heart disease in adults. Children who are exposed to secondhand smoke are at increased risk for sudden infant death syndrome, acute respiratory infections, middle ear disease, more severe asthma, respiratory symptoms, and slowed lung growth. There is no safe level of tobacco use. Use of any drug always carries some risk—even medications can produce unwanted side effects. It is important to be careful when taking any type of drug. Immediate effects Some of the effects that may be experienced after smoking tobacco include: *initial stimulation, then reduction in activity of brain and nervous system *increased alertness and concentration *feelings of mild euphoria *feelings of relaxation *increased blood pressure and heart rate *decreased blood flow to fingers and toes *decreased skin temperature *bad breath *decreased appetite *dizziness *nausea, abdominal cramps and vomiting *headache *coughing, due to smoke irritation. */
+
+position: absolute;
+
+left: 7px;
+top: 100px;
+padding: 15px 70px;
+font-family: Signika SC;
+font-style: normal;
+font-weight: normal;
+
+line-height: 20px;
+
+color: #0F3AA9;
+}
+p{
+    line-height: 17px;
+}
+.table{
+    position: absolute;
+    top: 950px;
+    padding: 15px;
+    width: 35%;
+    left: 12px;
+}
+.thead{
+    background-color: grey;
+    color: honeydew;
+}
+
+    

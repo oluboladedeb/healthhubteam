@@ -1,0 +1,483 @@
+/*Logo*/
+/* Rectangle 62 */
+/* Rectangle 62 */
+
+#main-header{
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    /* black */
+    background: white;
+    border-bottom: 1px solid rgb(121, 121, 196);
+}
+/* HealthHub */
+.h3{
+position: absolute;
+font-family: Robot Slab;
+font-size: 50px;
+font-style: normal;
+font-weight: bold;
+left: 169px;
+top: 49px;
+/* identical to box height */
+color: #1542B8;
+}
+
+.bttn-b{
+    position: absolute;
+    height: 40px;
+    width: 300px;
+    left: 1058px;
+    top: 76px;
+    background-color: rgb(230, 215, 215), 30);
+    color: #2aff07;
+    padding-left: 250px;
+    border-radius: 10px;
+}
+.bi-search{
+    color: #2AFF07;
+    width: 1.67rem;
+    left: -4px;
+    top: 15px;
+        }
+.bi-arrow-right-circle-fill{
+            
+            width: 1.67rem;
+            left: -4px;
+            top: 15px;
+            padding-left: 10px;
+ }
+.proceed-btn{
+ border: none;
+background-color: #1542B8;
+ color: blanchedalmond;
+ padding: 12px 16px;
+ cursor: pointer;
+ width: 10rem;
+left: 50px;
+ top: 50px;
+ border-radius: 13px;
+ margin-left: 25vh
+}
+.bi-person{
+ 
+   
+}
+/*Form*/
+.row{
+    margin-left: 400px;
+  }
+  .form-container{
+    background-color: rgba(59, 30, 226, 0.849);
+    position: absolute;
+    top: 20rem;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    width: 80vh;
+   
+  }
+  /*
+  .bi{ /**style for bootrap icon,make sure you include the icon in html**/
+    position: relative;
+    float: left;
+    margin-left: 8px;
+    margin-top: -24px;
+    z-index: 2;
+    color: black;
+  }*/
+  #form-title{
+    text-align: center;
+    color: ivory;
+
+  }
+  .par{
+    color: black;
+  margin-top: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  }
+  #par{
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  /*
+  .btn{
+    margin-left: 30vh;
+    background-color: lavender;
+    color: black;
+    border: 1px solid black;
+  }
+  .bi-arrow-right-circle-fill{
+      position: absolute;
+      top: 10px;
+  }*/
+  
+/*form end*/
+/**footer/
+  
+
+.footer-area {
+    top: 1500px;
+    margin-top: 100px;
+    padding: 100px 0;
+    background: #9BA4BB;
+    background: -moz-linear-gradient(left,  #24459b 0%, #6085b2 100%);
+    background: -webkit-linear-gradient(left, #24459b  0%,#6085b2 100%);
+    background: linear-gradient(to right,  #24459b 0%,#6085b2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2749c4', endColorstr='#6085b2',GradientType=1 );
+    color:#fff;
+    position:relative;
+  }
+  .main {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 150px;
+    
+  }
+  .single-footer {
+    
+  }
+  .single-footer:first-child {
+    width: 400px;
+  }
+  .single-footer:nth-child(2) {
+    padding-left: 50px;
+    width: 285px;
+  }
+  .single-footer:nth-child(3) {
+    padding-left: 10px;
+    width: 280px;
+  }
+  .single-footer h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .footer-social a {
+    color: #fff;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .footer-social {
+    margin-top: 20px;
+  }
+  .single-footer ul {
+    list-style: none;
+  }
+  .single-footer ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+  }
+  .single-footer ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .single-footer ul li a i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+  }
+  
+  .copy {
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10px;
+    border: 2px solid white;
+    margin-top: 90px;
+  }
+  
+  .footer-wave-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 45px;
+    right: 0;
+    width: 100%;
+    overflow:hidden;
+    border-top: 13px solid white;
+  }
+  .footer-wave {
+    background-image: url("footer-shape.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200%;
+    background-size: 40%;
+   background-position: bottom;
+   background-repeat: repeat-x;
+  
+  }
+  #footer-bottom{
+      top: 1600;
+    position: absolute;
+    text-align: center;
+    background-color: grey;
+    color: whitesmoke;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    bottom: 0px;
+    border: 1px solid;
+    left: 0px;
+  }
+  .footer-animation{
+      -moz-animation: footer_wave 5s linear infinite;
+      -o-animation: footer_wave 5s linear infinite;
+      -webkit-animation: footer_wave 5s linear infinite;
+      left:auto;
+      right:0;
+  }
+  
+  @keyframes footer_wave{
+    0%{
+        -webkit-transform:translateX(0%);
+    }
+    50%{
+      -webkit-transform:translateX(50%);
+    }
+    100%{
+      -webkit-transform:translateX(10j0%);
+    }
+  }
+  
+  @media only screen and (max-width:600px){
+    .main{
+      width:320px;
+    }
+    .footer-wave-box {
+      display: none;
+    }
+    .single-footer:first-child, .single-footer {
+      width: 100%;
+      margin-bottom:30px;
+    }
+  }
+  /*footer form*/
+  form {
+    border: 3px solid #24459b;
+    font-family: Arial;
+  }
+  
+  .container {
+    padding: 5px ;
+    background-color: #24459b;
+    width: 280px;
+    
+  }
+  .btn-contain{
+    cursor: pointer;
+  }
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 9px 12px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid #24459b;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 5px;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  #checkbox{
+    color: black;
+  }
+/*footer*/
+
+footer{
+  
+	position: relative;
+  bottom: 0;
+  top: 140vh;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 100px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+}
+
+    

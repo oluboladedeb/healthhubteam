@@ -1,0 +1,38 @@
+
+#btn-b{
+  width: 110px;
+  border-radius: 10px;
+  border: none;
+}
+.btn-b{
+  width: 110px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: lavender;
+  margin-top: 10px;
+}
+.card-link{
+  color: rgb(37, 37, 37);
+}
+.card{
+  margin-top: 70px;
+ margin-left: 60vh;
+ border-radius: 10px;
+ background-color: rgb(85, 85, 202);
+ color: honeydew;
+ height: 30vh;
+ text-align: center;
+}
+.card-title{
+font-weight: 500;
+}
+.card-text{
+ font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+}
+/*footer*/
+
+
+
+    
